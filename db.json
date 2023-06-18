@@ -736,5 +736,569 @@
          "user": "admin",
          "pass": "admin"
       }
+   ],
+   "transactions": [
+      {
+         "id": 1,
+         "sourceAccount": "1234567890",
+         "destinationAccount": "9876543210",
+         "amount": 1000,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-08",
+         "transactionTime": "15:30:00",
+         "transactionReference": "TRX123456789",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "john_doe",
+            "password": "********",
+            "otp": "123456"
+         }
+      },
+      {
+         "id": 2,
+         "sourceAccount": "0987654321",
+         "destinationAccount": "5678901234",
+         "amount": 500,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-08",
+         "transactionTime": "14:45:00",
+         "transactionReference": "TRX987654321",
+         "description": "Utility bill payment",
+         "authentication": {
+            "username": "jane_smith",
+            "password": "********",
+            "otp": "654321"
+         }
+      },
+      {
+         "id": 3,
+         "sourceAccount": "1122334455",
+         "destinationAccount": "5566778899",
+         "amount": 1500,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-09",
+         "transactionTime": "10:30:00",
+         "transactionReference": "TRX1122334455",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "johndoe123",
+            "password": "********",
+            "otp": "987654"
+         }
+      },
+      {
+         "id": 4,
+         "sourceAccount": "9988776655",
+         "destinationAccount": "4433221100",
+         "amount": 2000,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-09",
+         "transactionTime": "11:45:00",
+         "transactionReference": "TRX9988776655",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "janedoe456",
+            "password": "********",
+            "otp": "123456"
+         }
+      },
+      {
+         "id": 5,
+         "sourceAccount": "5544332211",
+         "destinationAccount": "0099887766",
+         "amount": 800,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-09",
+         "transactionTime": "14:15:00",
+         "transactionReference": "TRX5544332211",
+         "description": "Bill payment",
+         "authentication": {
+            "username": "johndoe789",
+            "password": "********",
+            "otp": "789012"
+         }
+      },
+      {
+         "id": 6,
+         "sourceAccount": "7766554433",
+         "destinationAccount": "2211009988",
+         "amount": 1200,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-09",
+         "transactionTime": "16:30:00",
+         "transactionReference": "TRX7766554433",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "janedoe789",
+            "password": "********",
+            "otp": "345678"
+         }
+      },
+      {
+         "id": 7,
+         "sourceAccount": "3344556677",
+         "destinationAccount": "7788990011",
+         "amount": 100,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-09",
+         "transactionTime": "17:45:00",
+         "transactionReference": "TRX3344556677",
+         "description": "Online purchase",
+         "authentication": {
+            "username": "johndoe456",
+            "password": "********",
+            "otp": "901234"
+         }
+      },
+      {
+         "id": 8,
+         "sourceAccount": "0011223344",
+         "destinationAccount": "5566778899",
+         "amount": 500,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-09",
+         "transactionTime": "19:00:00",
+         "transactionReference": "TRX0011223344",
+         "description": "Utility bill payment",
+         "authentication": {
+            "username": "janedoe123",
+            "password": "********",
+            "otp": "567890"
+         }
+      },
+      {
+         "id": 9,
+         "sourceAccount": "9900112233",
+         "destinationAccount": "4455667788",
+         "amount": 300,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-10",
+         "transactionTime": "09:30:00",
+         "transactionReference": "TRX9900112233",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "johndoe789",
+            "password": "********",
+            "otp": "123456"
+         }
+      },
+      {
+         "id": 10,
+         "sourceAccount": "7788990011",
+         "destinationAccount": "1122334455",
+         "amount": 2500,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-10",
+         "transactionTime": "11:00:00",
+         "transactionReference": "TRX7788990011",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "janedoe456",
+            "password": "********",
+            "otp": "987654"
+         }
+      },
+      {
+         "id": 11,
+         "sourceAccount": "5566778899",
+         "destinationAccount": "9988776655",
+         "amount": 700,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-10",
+         "transactionTime": "13:15:00",
+         "transactionReference": "TRX5566778899",
+         "description": "Bill payment",
+         "authentication": {
+            "username": "johndoe123",
+            "password": "********",
+            "otp": "345678"
+         }
+      },
+      {
+         "id": 12,
+         "sourceAccount": "4433221100",
+         "destinationAccount": "5544332211",
+         "amount": 1800,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-10",
+         "transactionTime": "15:30:00",
+         "transactionReference": "TRX4433221100",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "janedoe789",
+            "password": "********",
+            "otp": "901234"
+         }
+      },
+      {
+         "id": 13,
+         "sourceAccount": "2211009988",
+         "destinationAccount": "7766554433",
+         "amount": 900,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-10",
+         "transactionTime": "17:45:00",
+         "transactionReference": "TRX2211009988",
+         "description": "Online purchase",
+         "authentication": {
+            "username": "johndoe456",
+            "password": "********",
+            "otp": "567890"
+         }
+      },
+      {
+         "id": 14,
+         "sourceAccount": "7788990011",
+         "destinationAccount": "3344556677",
+         "amount": 1200,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-10",
+         "transactionTime": "19:00:00",
+         "transactionReference": "TRX7788990011",
+         "description": "Utility bill payment",
+         "authentication": {
+            "username": "janedoe123",
+            "password": "********",
+            "otp": "123456"
+         }
+      },
+      {
+         "id": 15,
+         "sourceAccount": "9900112233",
+         "destinationAccount": "0011223344",
+         "amount": 400,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-11",
+         "transactionTime": "09:30:00",
+         "transactionReference": "TRX9900112233",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "johndoe789",
+            "password": "********",
+            "otp": "987654"
+         }
+      },
+      {
+         "id": 16,
+         "sourceAccount": "5566778899",
+         "destinationAccount": "7788990011",
+         "amount": 1500,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-11",
+         "transactionTime": "11:00:00",
+         "transactionReference": "TRX5566778899",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "janedoe456",
+            "password": "********",
+            "otp": "345678"
+         }
+      },
+      {
+         "id": 17,
+         "sourceAccount": "4433221100",
+         "destinationAccount": "5544332211",
+         "amount": 1000,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-11",
+         "transactionTime": "13:15:00",
+         "transactionReference": "TRX4433221100",
+         "description": "Bill payment",
+         "authentication": {
+            "username": "johndoe123",
+            "password": "********",
+            "otp": "901234"
+         }
+      },
+      {
+         "id": 18,
+         "sourceAccount": "2211009988",
+         "destinationAccount": "7766554433",
+         "amount": 600,
+         "transactionType": "transfer",
+         "transactionDate": "2023-06-11",
+         "transactionTime": "15:30:00",
+         "transactionReference": "TRX2211009988",
+         "description": "Funds transfer",
+         "authentication": {
+            "username": "janedoe789",
+            "password": "********",
+            "otp": "567890"
+         }
+      },
+      {
+         "id": 19,
+         "sourceAccount": "3344556677",
+         "destinationAccount": "7788990011",
+         "amount": 200,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-11",
+         "transactionTime": "17:45:00",
+         "transactionReference": "TRX3344556677",
+         "description": "Online purchase",
+         "authentication": {
+            "username": "johndoe456",
+            "password": "********",
+            "otp": "123456"
+         }
+      },
+      {
+         "id": 20,
+         "sourceAccount": "0011223344",
+         "destinationAccount": "5566778899",
+         "amount": 900,
+         "transactionType": "payment",
+         "transactionDate": "2023-06-11",
+         "transactionTime": "19:00:00",
+         "transactionReference": "TRX0011223344",
+         "description": "Utility bill payment",
+         "authentication": {
+            "username": "janedoe123",
+            "password": "********",
+            "otp": "789012"
+         }
+      }
+   ],
+   "account": [
+      {
+         "id": 1,
+         "customerName": "Jane Smith",
+         "dateOfBirth": "1992-03-25",
+         "gender": "female",
+         "address": "789 Gandhi Road, City, State, Country",
+         "aadharNo": 1111222233334444,
+         "panNo": "GBRPS5496L",
+         "contactNumber": "+91 1234567890",
+         "email": "janesmith@example.com",
+         "balance": 548684
+      },
+      {
+         "id": 2,
+         "customerName": "John Doe",
+         "dateOfBirth": "1988-11-10",
+         "gender": "male",
+         "address": "456 Lincoln Street, City, State, Country",
+         "aadharNo": 5555666677778888,
+         "panNo": "ABCDP1234Q",
+         "contactNumber": "+91 9876543210",
+         "email": "johndoe@example.com",
+         "balance": 720000
+      },
+      {
+         "id": 3,
+         "customerName": "Alice Johnson",
+         "dateOfBirth": "1995-07-08",
+         "gender": "female",
+         "address": "321 Park Avenue, City, State, Country",
+         "aadharNo": 9999888877776666,
+         "panNo": "EFGHI5678R",
+         "contactNumber": "+91 7890123456",
+         "email": "alicejohnson@example.com",
+         "balance": 38000
+      },
+      {
+         "id": 4,
+         "customerName": "Michael Brown",
+         "dateOfBirth": "1980-02-15",
+         "gender": "male",
+         "address": "987 Maple Lane, City, State, Country",
+         "aadharNo": 7777666655554444,
+         "panNo": "JKLMN9012S",
+         "contactNumber": "+91 2345678901",
+         "email": "michaelbrown@example.com",
+         "balance": 1250000
+      },
+      {
+         "id": 5,
+         "customerName": "Sophia Wilson",
+         "dateOfBirth": "1997-09-30",
+         "gender": "female",
+         "address": "234 Oak Street, City, State, Country",
+         "aadharNo": 3333444455556666,
+         "panNo": "OPQRS3456T",
+         "contactNumber": "+91 3456789012",
+         "email": "sophiawilson@example.com",
+         "balance": 65000
+      },
+      {
+         "id": 6,
+         "customerName": "David Thompson",
+         "dateOfBirth": "1985-04-12",
+         "gender": "male",
+         "address": "567 Elm Road, City, State, Country",
+         "aadharNo": 1111999922223333,
+         "panNo": "UVWXY6789U",
+         "contactNumber": "+91 4567890123",
+         "email": "davidthompson@example.com",
+         "balance": 980000
+      },
+      {
+         "id": 7,
+         "customerName": "Emma Davis",
+         "dateOfBirth": "1990-12-05",
+         "gender": "female",
+         "address": "876 Cedar Avenue, City, State, Country",
+         "aadharNo": 5555444433332222,
+         "panNo": "ZABCD5678V",
+         "contactNumber": "+91 5678901234",
+         "email": "emmadavis@example.com",
+         "balance": 20000
+      },
+      {
+         "id": 8,
+         "customerName": "Daniel Martinez",
+         "dateOfBirth": "1987-06-20",
+         "gender": "male",
+         "address": "123 Pine Street, City, State, Country",
+         "aadharNo": 9999888811112222,
+         "panNo": "WXYZA1234W",
+         "contactNumber": "+91 6789012345",
+         "email": "danielmartinez@example.com",
+         "balance": 450000
+      },
+      {
+         "id": 9,
+         "customerName": "Olivia Thompson",
+         "dateOfBirth": "1993-01-17",
+         "gender": "female",
+         "address": "432 Oak Avenue, City, State, Country",
+         "aadharNo": 4444333322221111,
+         "panNo": "BCDEF2345X",
+         "contactNumber": "+91 7890123456",
+         "email": "oliviathompson@example.com",
+         "balance": 75000
+      },
+      {
+         "id": 10,
+         "customerName": "William Garcia",
+         "dateOfBirth": "1983-08-08",
+         "gender": "male",
+         "address": "765 Maple Lane, City, State, Country",
+         "aadharNo": 7777555544443333,
+         "panNo": "DEFGH3456Y",
+         "contactNumber": "+91 8901234567",
+         "email": "williamgarcia@example.com",
+         "balance": 320000
+      },
+      {
+         "id": 11,
+         "customerName": "Sophia Lee",
+         "dateOfBirth": "1991-11-27",
+         "gender": "female",
+         "address": "234 Pine Street, City, State, Country",
+         "aadharNo": 6666555577778888,
+         "panNo": "FGHIJ4567Z",
+         "contactNumber": "+91 9012345678",
+         "email": "sophialee@example.com",
+         "balance": 94000
+      },
+      {
+         "id": 12,
+         "customerName": "Ethan Lopez",
+         "dateOfBirth": "1989-05-02",
+         "gender": "male",
+         "address": "876 Oak Avenue, City, State, Country",
+         "aadharNo": 3333222211114444,
+         "panNo": "HIJKL5678A",
+         "contactNumber": "+91 2345678901",
+         "email": "ethanlopez@example.com",
+         "balance": 610000
+      },
+      {
+         "id": 13,
+         "customerName": "Isabella Rodriguez",
+         "dateOfBirth": "1996-02-18",
+         "gender": "female",
+         "address": "543 Cedar Road, City, State, Country",
+         "aadharNo": 8888777766665555,
+         "panNo": "IJKLM6789B",
+         "contactNumber": "+91 3456789012",
+         "email": "isabellarodriguez@example.com",
+         "balance": 48000
+      },
+      {
+         "id": 14,
+         "customerName": "Aiden Wilson",
+         "dateOfBirth": "1984-09-06",
+         "gender": "male",
+         "address": "765 Elm Street, City, State, Country",
+         "aadharNo": 2222333344445555,
+         "panNo": "MNOPQ7890C",
+         "contactNumber": "+91 4567890123",
+         "email": "aidenwilson@example.com",
+         "balance": 1650000
+      },
+      {
+         "id": 15,
+         "customerName": "Mia Anderson",
+         "dateOfBirth": "1994-03-12",
+         "gender": "female",
+         "address": "432 Cedar Avenue, City, State, Country",
+         "aadharNo": 7777222233334444,
+         "panNo": "OPQRS8901D",
+         "contactNumber": "+91 5678901234",
+         "email": "miaanderson@example.com",
+         "balance": 72000
+      },
+      {
+         "id": 16,
+         "customerName": "James Taylor",
+         "dateOfBirth": "1982-10-24",
+         "gender": "male",
+         "address": "321 Oak Street, City, State, Country",
+         "aadharNo": 6666333322221111,
+         "panNo": "RSTUV1234E",
+         "contactNumber": "+91 6789012345",
+         "email": "jamestaylor@example.com",
+         "balance": 890000
+      },
+      {
+         "id": 17,
+         "customerName": "Charlotte Brown",
+         "dateOfBirth": "1998-07-15",
+         "gender": "female",
+         "address": "543 Pine Lane, City, State, Country",
+         "aadharNo": 4444555566667777,
+         "panNo": "TUVWX2345F",
+         "contactNumber": "+91 7890123456",
+         "email": "charlottebrown@example.com",
+         "balance": 38000
+      },
+      {
+         "id": 18,
+         "customerName": "Benjamin Wilson",
+         "dateOfBirth": "1986-04-19",
+         "gender": "male",
+         "address": "876 Maple Road, City, State, Country",
+         "aadharNo": 1111333322224444,
+         "panNo": "UVWXY3456G",
+         "contactNumber": "+91 8901234567",
+         "email": "benjaminwilson@example.com",
+         "balance": 1450000
+      },
+      {
+         "id": 19,
+         "customerName": "Harper Davis",
+         "dateOfBirth": "1993-12-03",
+         "gender": "female",
+         "address": "234 Pine Avenue, City, State, Country",
+         "aadharNo": 5555444433332222,
+         "panNo": "WXYZA4567H",
+         "contactNumber": "+91 9012345678",
+         "email": "harperdavis@example.com",
+         "balance": 87000
+      },
+      {
+         "id": 20,
+         "customerName": "Lucas Thomas",
+         "dateOfBirth": "1981-11-09",
+         "gender": "male",
+         "address": "432 Elm Lane, City, State, Country",
+         "aadharNo": 2222111133334444,
+         "panNo": "BCDEF5678I",
+         "contactNumber": "+91 2345678901",
+         "email": "lucasthomas@example.com",
+         "balance": 530000
+      }
    ]
 }
